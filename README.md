@@ -20,7 +20,11 @@ Winlator is an Android application that lets you to run Windows (x86_64) applica
 
 ----
 
-![Snapdragon 695](https://raw.githubusercontent.com/slaker222/Steamlator/main/video.mp4)
+
+
+https://github.com/user-attachments/assets/8228f63d-1e67-4a09-bd57-dd20621450df
+
+
 
 [![Play on Youtube](https://img.youtube.com/vi/ETYDgKz4jBQ/3.jpg)](https://www.youtube.com/watch?v=ETYDgKz4jBQ)
 [![Play on Youtube](https://img.youtube.com/vi/9E4wnKf2OsI/2.jpg)](https://www.youtube.com/watch?v=9E4wnKf2OsI)
