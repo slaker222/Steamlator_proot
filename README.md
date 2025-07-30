@@ -2,13 +2,20 @@
 	<img src="logo.png" width="376" height="128" alt="Winlator Logo" />
 </p>
 
-# Winlator
+# Steamlator
 
-Winlator is an Android application that lets you to run Windows (x86_64) applications with Wine and Box86/Box64.
+🏗 Based on Winlator Just Bionic 1.5.2
+
+Steam is already built into the APK – when you launch the container, the Steam launcher will open automatically.
+Uses special launch arguments for maximum compatibility.
+Verified: Steam works on devices with Helio G99 and Snapdragon 665
+(if your processor is more powerful, it will obviously work too).
+
+Winlator is an Android application that lets you to run Windows (x86_64) applications with Proton and Box86/Box64.
 
 # Installation
 
-1. Download and install the APK (Winlator_10.1.apk) from [GitHub Releases](https://github.com/brunodev85/winlator/releases)
+1. Download and install the APK (Steamlator 1.5.2) from [GitHub Releases](https://github.com/slaker222/steamlator/releases)
 2. Launch the app and wait for the installation process to finish
 
 ----
@@ -20,18 +27,20 @@ Winlator is an Android application that lets you to run Windows (x86_64) applica
 
 ----
 
-# Useful Tips
+#⚠️ Issues & Solutions
 
-- If you are experiencing performance issues, try changing the Box64 preset to `Performance` in Container Settings -> Advanced Tab.
-- For applications that use .NET Framework, try installing `Wine Mono` found in Start Menu -> System Tools -> Installers.
-- If some older games don't open, try adding the environment variable `MESA_EXTENSION_MAX_YEAR=2003` in Container Settings -> Environment Variables.
-- Try running the games using the shortcut on the Winlator home screen, there you can define individual settings for each game.
-- To display low resolution games correctly, try to enabling the `Force Fullscreen` option in the shortcut settings.
-- To improve stability in games that uses Unity Engine, try changing the Box64 preset to `Stability` or in the shortcut settings add the exec argument `-force-gfx-direct`.
+🔄 Endless Steam Loading
+Solution:
+Close the container using the Exit button and reopen it – the endless loading issue will be gone.
+🛑 Game says your hardware is too weak
 
-# Information
+Solution:
+Replace Wrapper with Turnip (Adreno only).
+❌ DXVK doesn’t work on Wrapper
 
-This project has been in constant development since version 1.0, the current app source code is up to version 7.1, I do not update this repository frequently precisely to avoid unofficial releases before the official releases of Winlator.
+Solution:
+Use DXVK below version 2.0 (other versions are for Turnip).
+
 
 # Credits and Third-party apps
 - GLIBC Patches by [Termux Pacman](https://github.com/termux-pacman/glibc-packages)
