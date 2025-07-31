@@ -50,3 +50,11 @@ Use DXVK below version 2.0 (other versions are for Turnip).
 
 Special thanks to all the developers involved in these projects.<br>
 Thank you to all the people who believe in this project.
+
+if you want to build apk you need to download [MEGA](https://mega.nz/folder/X1Yw1YDa#g8GBelGf20UROVbZRq31rQ)
+container_pattern_arm64ec.tzst
+container_pattern_common.tzst
+container_pattern_x86_64.tzst
+imagefs.txz
+proton-9.0-x86_64_container_pattern.tzst
+proton-9.0-x86_64.txz 
